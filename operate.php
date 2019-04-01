@@ -24,88 +24,7 @@
                 use_python("reset");
             });
         });
-        //     $("#up").mousedown(function(){
-        //         Move('up');
-        //     });
-        //
-        //     $("#down").mousedown(function(){
-        //         Move('down');
-        //     });
-        //
-        //     $("#left").mousedown(function(){
-        //         Move('left');
-        //
-        //     });
-        //     $("#right").mousedown(function () {
-        //         Move('right');
-        //     });
-        //     $("#reset").mousedown(function () {
-        //         Move('reset');
-        //     });
-        //
-        //
-        //     $("#up").mouseup(function(){
-        //         MouseUp ();
-        //     });
-        //
-        //     $("#down").mouseup(function(){
-        //         MouseUp ();
-        //     });
-        //
-        //     $("#left").mouseup(function(){
-        //         MouseUp ();
-        //
-        //     });
-        //     $("#right").mouseup(function () {
-        //         MouseUp ();
-        //     });
-        //     $("#reset").mouseup(function () {
-        //         MouseUp ();
-        //     });
-        //
-        //
-        //
-        //
-
-        //     var timer=null;
-        //     var MoveTime=500;//间隔时间，可调整
-        //
-        //     function Move (f)
-        //     {
-        //         clearInterval(timer);
-        //         timer=setInterval(function (){
-        //
-        //             switch (f)
-        //             {
-        //                 case 'left' :
-        //                     use_python(f);
-        //                     break;
-        //
-        //                 case 'right' :
-        //                     use_python(f);;
-        //                     break;
-        //
-        //                 case 'up' :
-        //                     use_python(f);
-        //                     break;
-        //
-        //                 case 'down' :
-        //                     use_python(f);
-        //                     break;
-        //                 case 'reset':
-        //                     use_python(f);
-        //                     break;
-        //             }
-        //
-        //         },MoveTime)
-        //     }
-        //
-        //
-        //     function MouseUp ()
-        //     {
-        //         clearInterval(timer);
-        //         timer=null;
-        //     }
+       
 
             function use_python(f) {
 
@@ -143,7 +62,7 @@
             img.style.zIndex = -1;
             img.onload = imageOnload;
             img.onclick = imageOnclick;
-            img.src = "http://lzjstudy.natapp1.cc?action=snapshot&n=" + (++imageNr);
+            img.src = "http://你的域名(用来MJPG-Stream的域名，如果是本地请填写树莓派的内网IP)?action=snapshot&n=" + (++imageNr);
             var webcam = document.getElementById("webcam");
             if (imageNr>100)
             {
