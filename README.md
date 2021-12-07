@@ -1,11 +1,13 @@
 # raspiberrry-Remote-monitoring-SG90-steering-gear-control-
 raspiberrry Remote monitoring (SG90 steering gear control)
-树莓派远程监控系统（SG90舵机）
+树莓派远程监控系统（SG90舵机）&nbsp;  
 you can learn how to use it by this website:
-https://blog.csdn.net/LZJSTUDY/article/details/88953737
+https://blog.csdn.net/LZJSTUDY/article/details/88953737 &nbsp;  
 教程网址：
 https://blog.csdn.net/LZJSTUDY/article/details/88953737
 
+# GIF效果图请看上述网址
+***
 我这里是用了NATAPP提供的内网穿透服务，可以再任何地方访问网站进行操作，其中一个对应端口8888，一个对应端口8080，前面的8888端口是在nginx里面设置的，8080端口是提供视频服务的，因为这里我采用的是MJPG-Streamer，它自己会占用8080端口的。
 
 当然你也可以用本地局域网，不需要内网穿透也就意味着不需要花钱，只能在局域网使用。
@@ -74,3 +76,9 @@ SG90舵机参数配置在config.ini里面，采用BOARD物理引脚编码，水�
 来源：CSDN 
 原文：https://blog.csdn.net/LZJSTUDY/article/details/88953737 
 版权声明：本文为博主原创文章，转载请附上博文链接！
+
+***
+results show:&nbsp;    
+![image](https://user-images.githubusercontent.com/39667326/144961559-87065d09-2d59-4a4a-b259-39d432de61f1.png)
+![image](https://user-images.githubusercontent.com/39667326/144961581-8845facb-6216-4d12-976d-3540aaa2accd.png)
+![image](https://user-images.githubusercontent.com/39667326/144961589-6e2d3ae5-00f1-46df-8ea6-8482473117d8.png)
